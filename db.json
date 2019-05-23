@@ -1,75 +1,15 @@
+    
 {
-salesOrderArr: [
-  {
-    tools: '',
-    rep: 'AEC',
-    order_number: '5836',
-    type: 'Free Form Order',
-    date: '01/02/2019',
-    edi: '',
-    store: 'Rockville',
-    customer: 'Custar Electric',
-    cust_rel: 'CR Rebill 2',
-    order: '160.50',
-    sales: 'Ximple Support',
-    ship: 'Yes',
-    status: 'Booked',
-    pick: 'Pickd',
-    hold: 'Yes',
-    po: 'PO',
-  },
-  {
-    tools: '',
-    rep: 'AEC',
-    order_number: '5837',
-    type: 'Standard Order',
-    date: '01/03/2019',
-    edi: '',
-    store: 'Rockville',
-    customer: 'Custar Electric',
-    cust_rel: '',
-    order: '341.00',
-    sales: 'Ximple Support',
-    ship: 'Yes',
-    status: 'In Fulfillment',
-    pick: 'Pickd',
-    hold: '',
-    po: '',
-  },
-  {
-    tools: '',
-    rep: 'AEC',
-    order_number: '5838',
-    type: 'Cash Order',
-    date: '01/03/2019',
-    edi: '',
-    store: 'Rockville',
-    customer: 'Custar Electric',
-    cust_rel: 'CR Rebill 2',
-    order: '98.18',
-    sales: 'Ximple Support',
-    ship: 'Yes',
-    status: 'Closed',
-    pick: '',
-    hold: '',
-    po: '',
-  },
-  {
-    tools: '1`2`2`2',
-    rep: 'AEC',
-    order_number: '5839',
-    type: 'Free Form Order',
-    date: '01/09/2019',
-    edi: '',
-    store: 'Rockville',
-    customer: 'Custar Electric',
-    cust_rel: 'CR Rebill 2',
-    order: '170.50',
-    sales: 'Ximple Support',
-    ship: 'Yes',
-    status: 'In Fulfillment',
-    pick: 'Pickd',
-    hold: '',
-    po: '',
-  }]
-};
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
